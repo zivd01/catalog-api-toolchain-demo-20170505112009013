@@ -3,6 +3,7 @@ applications:
 - services:
   - myMicroservicesCloudant
   name: MicroservicesCatalogAPI
+  host: catalog-api-toolchain-demo-2017050511200901311
   buildpack: sdk-for-nodejs
   memory: 128m
   instances: 1
